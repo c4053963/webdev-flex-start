@@ -14,7 +14,6 @@ h1, h2{
     margin: auto;
     min-width: 500px;
     max-width: 1000px;
-    min-height: 1500px
 }
 a{
     color: #fa0;
@@ -47,9 +46,38 @@ main{
     gap: 25px
 }
 .sidebar{
-    text-align: right;
-    padding:10px 40px;	
+    text-align: center;
+    padding:10px 20px;
     border:1px solid #9254E3;
     border-radius:8px;
-    margin-top: 70px;
+    margin-top: 10px;
+    width: 25%;
+}
+section{
+    padding:10px 20px;
+    border:1px solid #9254E3;
+    border-radius:8px;
+    width: 50%;
+    margin-top: 10px;
+}
+.leftMenu{
+    display: flex;
+    padding:10px 20px;	
+    border:1px solid #9254E3;
+    border-radius:8px;
+    width: 25%;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.leftMenu ul{
+    padding-left: 0;
+    list-style: none;
+}
+footer{
+    margin: auto;
+    text-align: center;
+    border:1px solid #9254E3;
+    border-radius:8px;
+    margin-top: 10px;
 }
